@@ -2,17 +2,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>my website</title>
+	<title>portfolio</title>
 	<style>
 		.title{
-			background-color: blue;
+			background-color: red;
 			padding-top: 12px;
 			padding-bottom: 12px;
 			padding-left: 10px;
 			color: white;
 		}
 		.image1{
-			width: 200px;
+			width: 100px;
 			margin-top: 8px;
 			border-radius: 50px;
 			display: inline-block;
@@ -21,20 +21,24 @@
 			border: solid;
 			border-color: red;
 		}
-		.image2{
-			 width: 600px;
-            height: 318px;
-            margin-top: 8px;
-           
-            display: inline-block;
-            vertical-align: top;
-            object-fit: cover;
-            margin-left: 50px;
-            
-            transition: transform 0.15s ease;
-
-
-		}
+		.image2 {
+    width: 790.391px;
+    height: 400px;
+    margin-top: 8px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px;
+    overflow: hidden;
+    position: relative; 
+}
+		.image2 img {
+    width: auto; 
+    object-fit: cover; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    transition: transform 0.15s ease;
+}
 		.image3{
 			width: 200px;
 			margin-top: 8px;
@@ -46,21 +50,20 @@
 			border-color: red;
 		}
 		.myinfo{
-			width: 400px;
-			display: inline-block;
-			border: solid;
-			border-color: blue;
+			
+			display: block;
+			
 			margin-top: 15px;
 			border-radius: 20px;
 			margin-left: 30px;
-			background-color: orange;
+			background-color: white;
 			font-style: italic;
 
 
 		}
 		.experience{
-			width: 500px;
-			display: inline-block;
+			
+			
 			
 			margin-top: 15px;
 			background-color: grey;
@@ -69,20 +72,14 @@
 		}
 
 		.meso{
-			width: 300px
-			height:320px;
-			
-			
-			background-color: grey;
-			color: white;
+			background-color: white;
+			color: black;
 
 		}
 		.skills{
 			width: 400px;
 			height: 320px;
 			display: inline-block;
-			border: solid;
-			border-color: blue;
 			margin-top: 15px;
 			vertical-align: top;
 			margin-left: 20px;
@@ -96,22 +93,31 @@
 			width: 350px;
 			height: 320px;
 			display: inline-block;
-			border: solid;
-			border-color: red;
+			margin-top: 15px;
+			border-radius: 20px;
+			margin-left: 20px;
+			vertical-align: top;
+			background-color: red;
+			color: white; 
+		}
+			.future{
+			width: 400px;
+			height: 320px;
+			display: inline-block;
 			margin-top: 15px;
 			border-radius: 20px;
 			margin-left: 20px;
 			vertical-align: top;
 			background-color: grey;
-			color: red; 
+			color: white; 
 
 
 		}
 		.projects{
-			width: 700px;
-			display: inline-block;
+			
+			display: block;
 			margin-top: 15px;
-			border-radius: 20px;
+			
 			margin-left: 20px;
 			vertical-align: top;
 			background-color: green;
@@ -119,14 +125,35 @@
 
 
 		}
+		.Recommendations{
+			
+			display: block;
+			margin-top: 15px;
+			margin-left: 20px;
+			vertical-align: top;
+			background-color: white;
+			color: black; 
+
+
+		}
 		.klb{
 			color: blue;
+			display: inline-block;
+			margin-left: 20px;
+
 		}
 		.vista{
-			color: yellow;
+			color: green;
+			display: inline-block;
+			margin-left: 0px;
+			vertical-align: top;
 		}
 		.pride{
 			color: red;
+			display: inline-block;
+			width: 300px;
+			vertical-align: top;
+			margin-left: 0px;
 		}
 		.contacts{
 			background-color: grey;
@@ -135,6 +162,11 @@
 			padding-left: 10px;
 			color: white;
 		}
+		.about-me{
+			background-color: grey;
+			color: white;
+			text-align: center;
+		}
 
 	</style>
 </head>
@@ -142,7 +174,7 @@
 	<div class="title">
 		<div>
 		<p>
-	WELCOME TO MY WEBSITE CONTAINING MY ACADEMIC, PROFFESSIONAL QUALIFICATIONS AND ACHIEVEMENTS.
+	WELCOME TO MY PORTFOLIO CONTAINING MY ACADEMIC, PROFFESSIONAL QUALIFICATIONS AND ACHIEVEMENTS.
 </p>
 </div>
 </div>
@@ -150,12 +182,19 @@
 	<img class="image1" src="images/grad.jpg">
 
 	 <img class="image2" id="slidingImage" src="images/mypic1.jpg">
-	<img class="image3" src="images/grad1.jpg">
+	
 </div>
 <div class="myinfo">	
 <h2 class="about-me"> <u> WHOM I AM</u></h2>
 
-	<p class="">My name is Joshua Onchieku Nyabuto, i am 23 years old. I hold a degree in computer science from Laikipia University starting from semptember 2019 to April 2023. I specialize in web designing and web-based system developments. I can also do database designing (MYSQL), Networking,computer maintainance and providing ICT support. Am always optimistic to my career and i believe in changing technology that transforms our society. I am also eager to learn new skills in IT in order to couple up with changing technology. To achieve this, i constantly enroll for online courses which i believe will buld my career. so far i have enrolled to  cyber security course and am planning to enroll to Oracle database Administration (ODBA).</p>
+	<p class="">My name is Joshua Onchieku Nyabuto, and I am 23 years old. I hold a degree in Computer Science from Laikipia University, which I pursued from September 2019 to April 2023. My area of specialization lies in web designing and web-based system developments. Additionally, I possess skills in database designing (MySQL), networking, computer maintenance, and providing ICT support.<br>
+		<p>
+
+I am deeply passionate about my career and firmly believe in the transformative power of evolving technology in our society. I maintain an optimistic outlook on my professional journey and am committed to staying abreast of the latest advancements in the IT field. I am particularly enthusiastic about learning new skills that align with the dynamic landscape of technology.<br>
+</p>
+
+To achieve this, I actively seek opportunities to enhance my knowledge through online courses. Currently, I am enrolled in a cybersecurity course, and I am planning to further expand my expertise by pursuing Oracle Database Administration (ODBA). These endeavors reflect my dedication to continuous growth and readiness to adapt to the ever-changing demands of the IT industry.
+</p>
 	
 
 
@@ -190,11 +229,24 @@
 
 
 </div>
+<div class="future">	
+<h2 class="goal"> <u>FUTURE GOALS</u></h2>
+      <p>
+      	In my future career, I aspire to specialize as a backend developer and database administrator. I aim to master programming languages and frameworks for backend development, such as Python and Node.js, while also honing skills in managing relational databases like MySQL and Oracle. By seamlessly integrating backend development and database management expertise, I seek to architect robust, data-driven web applications that deliver exceptional user experiences. Continuous learning and staying updated with emerging technologies will remain integral to my success in the dynamic field of IT.
+      </p>
+		
+		
+		
+	
+	
+
+
+</div>
 
 <div class="experience">	
 <h2 class="about-me"> <u> EXPERIENCE</u></h2>
 
-	<p class="meso">I have a solid experience in website designing,web-based system development, database designing, networking, computer maintainance and ICT support through working on the following companies.<br>
+	<div class="meso">I possess a robust proficiency in website design, web-based system development, database design, networking, computer maintenance, and ICT support. This expertise has been honed through my hands-on experience gained from working with esteemed companies in the field.<br>
 		<p class="pride"><strong> 1. Pride Enterprises limited (January 2024 to March 2024)</strong> <br>
 		<strong>Job Title: ICT Technician</strong> <br>
 		<strong>Tasks:</strong> <br>
@@ -229,6 +281,7 @@
 
 
 </div>
+</div>
 <div class="projects">	
 <h2 class="about-me"> <u> PROJECTS</u></h2>
         <strong> <u>1. Sales management system.</u></strong><br>
@@ -257,6 +310,36 @@
 		</p>
 		
 </div>
+<div class="Recommendations">	
+<h2 class="about-me"> <u> Recommendations</u></h2>
+        <strong> <u>1. Robert Manaka.</u></strong><br>
+        <strong>  Assistant ICT Manager (Kenya Literature Bureau) </strong><br>
+        <strong>  Phone: +254743 765 474 </strong><br>
+        <p>
+        	 I have known Mr. Manaka for over a year, during which time he has served as my mentor, guiding me in both my academic pursuits and professional endeavors.
+        </p>
+		<strong> <u>2. Daniel Mokoro.</u></strong><br>
+        <strong>  Software Developer (VISTA SOLUTIONS LIMITED) </strong><br>
+        <strong>  Phone: +254721 584 259 </strong><br>
+        <p>
+        	 Mr. Daniel has been assisting me in advancing my career in system development for over a year.
+        </p>
+		<strong> <u>3. Faith Mbeche.</u></strong><br>
+        <strong>  Assistant Human Resource Manager (PRIDE ENTERPRISE LIMITED) </strong><br>
+        <strong>  Phone: +254705 787 551</strong><br>
+        <p>
+        	 I have had the pleasure of knowing Madam Faith for over three months through our shared office at Pride Enterprises Limited.
+        </p>
+        <strong> <u>4. Justus Kiprono.</u></strong><br>
+        <strong>  ICT officer (Kenya Literature Bureau) </strong><br>
+        <strong>  Phone: +254713 103 813</strong><br>
+        <p>
+        	 Justus has been providing guidance and support for my projects, and I have known him for over a year.
+        </p>
+		
+</div>
+
+
 <div class="contacts">
 	<strong> <u>CONTACT ME ON:</u></strong><br>
 	<p>
@@ -271,7 +354,7 @@
     
     let slidingImage = document.getElementById('slidingImage');
     let slideIndex = 0;
-    let images = [ 'images/mypic2.jpg', 'images/slide2.PNG','images/slide3.PNG','images/slide4.PNG','images/slide5.PNG','images/slide6.PNG']; 
+    let images = [ 'images/degree.png', 'images/degree1.png','images/image2.jpg','images/image3.jpg','images/image5.jpg','images/form4.png','images/grad.jpg','images/image4.png']; 
     function slideImage() {
         slideIndex = (slideIndex + 1) % images.length;
         slidingImage.src = images[slideIndex];
